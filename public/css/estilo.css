@@ -1,10 +1,17 @@
 
 
 .jumbotron{
+
         height: 200px;
         background: #6cb2eb;
 }
 
+
+
+.thead{
+
+    background: lightsteelblue;
+}
 
 h1{
     margin-left: 35%;
@@ -12,8 +19,16 @@ h1{
     color: #ffffff;
 }
 
+h3{
+    margin-left: 43%;
+    font-family: "Arial Black";
+    color: #ffffff;
+
+
+}
+
 .logo img{
-    margin-top: -80px;
+    margin-top: -150px;
     float: left;
     width:300px;
     height:100px;
@@ -34,7 +49,7 @@ h1{
 
 
 .menuLogin{
-    margin-top: -50px;
+    margin-top: -130px;
     list-style:none;
     float: right;
 }

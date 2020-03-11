@@ -1,9 +1,4 @@
 <?php
 
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/lista', 'ProdutoController@lista');
+Route::get('/', 'ProdutoController@lista');

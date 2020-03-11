@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b864940a-f8d2-4de5-a9b3-bbf12ec4f0d3" name="Default Changelist" comment="" />
+    <list default="true" id="b864940a-f8d2-4de5-a9b3-bbf12ec4f0d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/estilo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/estoque.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estoque.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +20,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -107,8 +118,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -137,6 +150,7 @@
       <workItem from="1583555254169" duration="555000" />
       <workItem from="1583560446023" duration="36000" />
       <workItem from="1583883379816" duration="51000" />
+      <workItem from="1583935884408" duration="11054000" />
     </task>
     <servers />
   </component>
@@ -152,6 +166,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583560484149" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583951083330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/1366.0.1600.860/0.0.1366.728@0.0.1366.728" timestamp="1583951083330" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583951083330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/1366.0.1600.860/0.0.1366.728@0.0.1366.728" timestamp="1583951083330" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583951083330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/1366.0.1600.860/0.0.1366.728@0.0.1366.728" timestamp="1583951083330" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583951083330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/1366.0.1600.860/0.0.1366.728@0.0.1366.728" timestamp="1583951083330" />
     <state x="405" y="199" key="NewPhpClassDialog" timestamp="1583404983010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

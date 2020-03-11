@@ -12,63 +12,81 @@
 </head>
 
 
-<body>
+            <body>
 
 
-<div class="jumbotron">
+            <div class="jumbotron">
 
 
-<h1>Passagem de Turno</h1>
+            <h1>Passagem de Turno</h1>
 
-    <nav>
-
-        <ul class="menuLogin">
-
-            <li><a href="#">Cadastro</a></li>
-            <li><a href="#">Login</a></li>
-
-        </ul>
-    </nav>
-
-    <div class="logo">
-        <img src="../interaxanew.png" alt="ITX">
-
-    </div>
-
-</div>
+                <h3><?php echo date('d/m/Y')?></h3>
 
 
-<div class="container">
+                <nav>
 
-    <h4>Analistas Turno | 22:00 - 06:00</h4><br>
+                    <ul class="menuLogin">
+
+                        <li><a href="#">Cadastro</a></li>
+                        <li><a href="#">Login</a></li>
+
+                    </ul>
+                </nav>
+
+                <div class="logo">
+                    <img src="../interaxanew.png" alt="ITX">
+
+                </div>
+
+            </div>
 
 
-<ul>
-    <li>João Alan</li>
-    <li>Lilian</li>
+            <div class="container">
+
+                <h4>Analista(s) Turno</h4>
 
 
-</ul>
+                    <table class="table table-bordered table-hover">
 
-</div>
+                        <thead class="thead">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Inicio-Turno</th>
+                            <th scope="col">Fim-Turno</th>
+                        </tr>
+                        </thead>
 
-    <div class="responsabilidade">
 
-        <div class="container">
+                        <tbody>
+                                <?php foreach ($analistas as $analista): ?>
+                                    <tr>
+                                        <td> <?= $analista->id ?>
+                                        <td> <?= $analista->nome ?> </td>
+                                        <td> <?= $analista->inicio_turno ?> </td>
+                                        <td> <?= $analista->fim_turno ?> </td>
+                                    </tr>
+                                <?php endforeach ?>
+                        </tbody>
+                </table>
 
-    <h4>Responsabilidade Analista </h4><br>
-    <ul>
+            </div>
 
-        <li> Monitoração, CheckList e Telefone: <b>João Alan, Lilian</b></li>
-        <li>Gestão Geral da Fila de Chamados: <b>João Alan, Lilian</b></li>
-        <li>Triagem Inicial da Fila de Chamados: <b>João Alan, Lilian</b></li>
-        <li> Fila De Chamados Em Andamentos e Telefone: <b>João Alan, Lilian</b></li>
-        <li>Transcrição: <b>Lilian</b></li>
+                <div class="responsabilidade">
 
-    </ul>
-        </div>
+                    <div class="container">
 
-</div>
+                            <h4>Responsabilidade Analista </h4><br>
+                            <ul>
 
-</body>
+                                <li> <b>Monitoração, CheckList e Telefone:</b></li>
+                                <li><b>Gestão Geral da Fila de Chamados:</b></li>
+                                <li><b>Triagem Inicial da Fila de Chamados:</b></li>
+                                <li> <b>Fila De Chamados Em Andamentos e Telefone:</b></li>
+                                <li><b>Transcrição:</b></li>
+                            </ul>
+                    </div>
+            </div>
+
+            </body>
 </html>
