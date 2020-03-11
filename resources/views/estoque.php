@@ -76,7 +76,7 @@
 
                     <div class="container">
 
-                            <h4>Responsabilidade Analista </h4><br>
+                            <h4>Responsabilidade(s) Analista </h4><br>
                             <ul>
 
                                 <li> <b>Monitoração, CheckList e Telefone:</b></li>
