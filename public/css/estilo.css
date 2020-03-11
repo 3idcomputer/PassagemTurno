@@ -1,0 +1,50 @@
+
+
+.jumbotron{
+        height: 200px;
+        background: #6cb2eb;
+}
+
+
+h1{
+    margin-left: 35%;
+    font-family: "Arial Black";
+    color: #ffffff;
+}
+
+.logo img{
+    margin-top: -80px;
+    float: left;
+    width:300px;
+    height:100px;
+}
+
+.responsabilidade{
+
+
+    padding: 20px;
+    height: 250px;
+    background: #d6e9f8;
+}
+
+.container li{
+
+    list-style:none;
+}
+
+
+.menuLogin{
+    margin-top: -50px;
+    list-style:none;
+    float: right;
+}
+
+.menuLogin li{
+    position:relative;
+    float:left;
+    border-right:1px solid #fff;
+}
+
+.menuLogin li a{
+    color:#fff; padding:5px 10px; display:block;
+}
