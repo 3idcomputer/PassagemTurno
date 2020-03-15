@@ -54,6 +54,7 @@
                             <th scope="col">Nome</th>
                             <th scope="col">Inicio-Turno</th>
                             <th scope="col">Fim-Turno</th>
+                            <th scope="col">Detalhes</th>
                         </tr>
                         </thead>
 
@@ -65,6 +66,7 @@
                                         <td> <?= $analista->nome ?> </td>
                                         <td> <?= $analista->inicio_turno ?> </td>
                                         <td> <?= $analista->fim_turno ?> </td>
+                                        <td> <a href=""><?= $analista->detalhe ?> </a></td>
                                     </tr>
                                 <?php endforeach ?>
                         </tbody>
