@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b864940a-f8d2-4de5-a9b3-bbf12ec4f0d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/estoque.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/estoque.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProdutoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/estoque.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estoque.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +152,7 @@
       <workItem from="1584237628634" duration="119000" />
       <workItem from="1584237758573" duration="543000" />
       <workItem from="1584240197551" duration="4218000" />
-      <workItem from="1584256454699" duration="2555000" />
+      <workItem from="1584256454699" duration="3802000" />
     </task>
     <servers />
   </component>
